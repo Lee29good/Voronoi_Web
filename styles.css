@@ -1,0 +1,434 @@
+body, html {
+    overflow-x: hidden;  /* 禁止水平滾動 */
+    margin: 0;           /* 確保沒有外邊距導致滾動 */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #0078D7;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 24px;
+    flex: 1 1 auto;
+    text-align: left;
+}
+
+.inline-nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+}
+
+.inline-nav li {
+    display: inline;
+}
+
+.inline-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    color : white;
+}
+
+.inline-nav a:hover {
+    text-decoration: underline;
+}
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+main h1 {
+    border-bottom: 2px solid #0078D7;
+    padding-bottom: 5px;
+}
+
+.same-width {
+    width: 700px;
+    height: auto;
+  }
+
+#ProgramInfo {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#ProgramInfo h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0078D7;
+    margin-bottom: 20px;
+}
+
+#ProgramInfo p {
+    text-align: center;
+    color: #555;
+}
+#introduction {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.8;
+}
+#introduction h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0078D7;
+    margin-bottom: 15px;
+}
+#introduction p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #333;
+}
+#introduction h3 {
+    font-size: 20px;
+    color: #0056b3;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+#introduction ul {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+#introduction ul li {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+}
+#introduction ul li strong {
+    color: #333;
+}
+
+#specification {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #343a40;
+}
+#specification h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0078D7;
+    margin-bottom: 20px;
+}
+#specification h3 {
+    color: #0056b3;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+#specification p, #specification ul, #specification ol {
+    margin: 10px 0;
+    font-size: 16px;
+    line-height: 1.8;
+}
+#specification ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+#specification ul li, #specification ol li {
+    margin-bottom: 8px;
+}
+#specification img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#programDesign {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#programDesign h1 {
+    color: #0078D7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#programDesign h3 {
+    color: #444;
+    border-left: 4px solid #0078D7;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#programDesign ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+#programDesign ul li {
+    margin-bottom: 10px;
+}
+#programDesign p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+#programDesign img {
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+em {
+    color: #555;
+    font-style: italic;
+}
+code {
+    background-color: #e7f3fe;
+    padding: 2px 5px;
+    border-radius: 4px;
+    font-family: monospace;
+}
+
+#testAndResult {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#testAndResult h1 {
+    color: #0078D7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#testAndResult h3 {
+    color: #444;
+    border-left: 4px solid #0078D7;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#testAndResult ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+.experiment-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.experiment-images figure {
+    margin: 0;
+    text-align: center;
+}
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+figure figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* 整體樣式 */
+#instructions {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+    line-height: 1.6;
+    color: #333;
+}
+/* 標題樣式 */
+#instructions h1 {
+    text-align: center;
+    font-size: 28px;
+    color: #0078D7;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#instructions h3 {
+    color: #0056b3;
+    margin-top: 20px;
+    border-left: 4px solid #0078D7;
+    padding-left: 10px;
+    font-size: 20px;
+}
+/* 列表樣式 */
+#instructions ul {
+    padding-left: 20px;
+}
+#instructions ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+#instructions ul li strong {
+    color: #0078D7;
+}
+
+#conclusion {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 80%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#conclusion h1 {
+    color: #0078D7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#conclusion h3 {
+    color: #444;
+    border-left: 4px solid #0078D7;
+    padding-left: 10px;
+    margin-top: 20px;
+}
+#conclusion ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+#conclusion p {
+    line-height: 1.8;
+    text-indent: 2em;
+    color: #333;
+}
+
+#appendix {
+    margin: 20px auto;
+    padding: 20px;
+    max-width:80%;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+#appendix h1 {
+    color: #0078D7;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#appendix ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+#appendix ul li {
+    margin: 10px 0;
+    font-size: 16px;
+}
+#appendix ul li a {
+    color: #0078D7;
+    text-decoration: none;
+}
+#appendix ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-info { 
+    text-align: center; 
+    margin-top: 20px; 
+    font-size: 14px; 
+    color: #666; 
+} 
+
+.contact-info .company {
+     font-weight: bold;
+      font-size: 16px;
+       color: #333; 
+} 
+.contact-info .title { 
+    font-size: 14px; 
+    color: #888; 
+}
+.contact-info .icons { 
+    margin-top: 10px; 
+} 
+
+.contact-info .icons img {
+    width: 30px;  /* 設置寬度為 30px，可以根據需求調整 */
+    height: auto; /* 保持圖片的比例 */
+    margin-right: 20px; /* 適當的間距 */
+    transition: transform 0.3s ease;  /* 加入平滑過渡效果 */
+}
+
+.icons img:hover {
+    transform: scale(1.5);  /* 懸停時圖片放大1.2倍，根據需要調整比例 */
+}
+
+.details p:hover {
+    color: white;                  /* 設置懸停時文字顏色為白色 */
+}
