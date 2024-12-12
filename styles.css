@@ -1,3 +1,10 @@
+/*
+# $LAN=Python$
+# Author : 李明儒 Ming-Ru Li
+# Student ID : M133040055
+# Date : 2024/12/4
+*/
+
 body, html {
     overflow-x: hidden;  /* 禁止水平滾動 */
     margin: 0;           /* 確保沒有外邊距導致滾動 */
