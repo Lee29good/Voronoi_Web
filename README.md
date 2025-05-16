@@ -12,6 +12,7 @@
 - 🛠 開發語言：Python 3.12.7
 - 📁 可執行版本支援 Windows（Mac 使用者可用原始碼手動打包）
 - 🔗 GitHub: [Voronoi Diagram Repo](https://github.com/Lee29good/Voronoi-diagram)
+- 頁面瀏覽: https://lee29good.github.io/Voronoi_Web/M133040055_Introduction.html
 
 ---
 
