@@ -13,13 +13,7 @@
 - 📁 可執行版本支援 Windows（Mac 使用者可用原始碼手動打包）
 - 🔗 GitHub: [Voronoi Diagram Repo](https://github.com/Lee29good/Voronoi-diagram)
 - 頁面瀏覽: https://lee29good.github.io/Voronoi_Web/M133040055_Introduction.html
-  - 簡介
-  - 軟體規格書
-  - 軟體說明
-  - 程式設計
-  - 軟體測試與實驗結果
-  - 結論與心得
-  - 附錄
+  - 簡介/軟體規格書/軟體說明/程式設計/軟體測試與實驗結果/結論與心得/附錄
 
 ---
 
